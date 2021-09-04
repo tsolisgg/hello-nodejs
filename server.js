@@ -8,6 +8,6 @@ const server = http.createServer((req, res) => {
   res.end('Habla Barrio');
 });
 
-server.listener(port, () => {
+server.listen(port, () => {
   console.log('Server running on port: ${port}');
   });
